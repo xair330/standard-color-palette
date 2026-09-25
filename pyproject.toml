@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "standard-color-palette"
+version = "1.0.0"
+description = "Civil Aviation Statistical Analysis Standard Color Palette Library"
+authors = [{ name = "xair330" }]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "matplotlib>=3.3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/xair330/standard-color-palette"
+Repository = "https://github.com/xair330/standard-color-palette.git"

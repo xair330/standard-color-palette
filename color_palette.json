@@ -1,0 +1,490 @@
+{
+  "version": "1.0.0",
+  "mode": "low_sat",
+  "total_colors": 69,
+  "colors": {
+    "SLATE_CHARCOAL": {
+      "name": "SLATE_CHARCOAL",
+      "low_sat": "#5A626A",
+      "original": "#5A626A",
+      "family": "SLATE & NAVY",
+      "description": "板岩炭灰"
+    },
+    "PALE_PLATINUM": {
+      "name": "PALE_PLATINUM",
+      "low_sat": "#B0B5BA",
+      "original": "#B0B5BA",
+      "family": "SLATE & NAVY",
+      "description": "浅白金灰"
+    },
+    "DEEP_NAVY": {
+      "name": "DEEP_NAVY",
+      "low_sat": "#596C8A",
+      "original": "#264C8A",
+      "family": "SLATE & NAVY",
+      "description": "深海蓝"
+    },
+    "SLATE_BLUE": {
+      "name": "SLATE_BLUE",
+      "low_sat": "#778EA5",
+      "original": "#6485A5",
+      "family": "SLATE & NAVY",
+      "description": "板岩蓝"
+    },
+    "ICE_AZURE": {
+      "name": "ICE_AZURE",
+      "low_sat": "#E6F0F8",
+      "original": "#E6F0F8",
+      "family": "SLATE & NAVY",
+      "description": "冰霜浅青"
+    },
+    "FOG_BLUE": {
+      "name": "FOG_BLUE",
+      "low_sat": "#D0E2EE",
+      "original": "#D0E2EE",
+      "family": "SLATE & NAVY",
+      "description": "雾蓝"
+    },
+    "KHAKI_BUFF": {
+      "name": "KHAKI_BUFF",
+      "low_sat": "#CDC293",
+      "original": "#CDBE7B",
+      "family": "SLATE & NAVY",
+      "description": "卡其原沙"
+    },
+    "STEEL_BLUE": {
+      "name": "STEEL_BLUE",
+      "low_sat": "#7893B1",
+      "original": "#5B84B1",
+      "family": "STEEL & OCHRE",
+      "description": "钢蓝"
+    },
+    "DEEP_TEAL": {
+      "name": "DEEP_TEAL",
+      "low_sat": "#5B8080",
+      "original": "#4C8080",
+      "family": "STEEL & OCHRE",
+      "description": "深青"
+    },
+    "CINNAMON_BROWN": {
+      "name": "CINNAMON_BROWN",
+      "low_sat": "#BD987A",
+      "original": "#BD7A42",
+      "family": "STEEL & OCHRE",
+      "description": "肉桂褐"
+    },
+    "PALE_AQUA": {
+      "name": "PALE_AQUA",
+      "low_sat": "#EAF5F2",
+      "original": "#EAF5F2",
+      "family": "STEEL & OCHRE",
+      "description": "苍水绿"
+    },
+    "ROSE_MAUVE": {
+      "name": "ROSE_MAUVE",
+      "low_sat": "#C8879B",
+      "original": "#C86684",
+      "family": "STEEL & OCHRE",
+      "description": "玫瑰锦葵"
+    },
+    "WARM_AMBER": {
+      "name": "WARM_AMBER",
+      "low_sat": "#D9AF8D",
+      "original": "#D97F36",
+      "family": "STEEL & OCHRE",
+      "description": "暖琥珀"
+    },
+    "GOLDEN_OCHRE": {
+      "name": "GOLDEN_OCHRE",
+      "low_sat": "#D9B38D",
+      "original": "#D98835",
+      "family": "STEEL & OCHRE",
+      "description": "金赭黄"
+    },
+    "CORAL_TERRA": {
+      "name": "CORAL_TERRA",
+      "low_sat": "#D8908C",
+      "original": "#D8554E",
+      "family": "STEEL & OCHRE",
+      "description": "珊瑚红"
+    },
+    "MUTED_CRIMSON": {
+      "name": "MUTED_CRIMSON",
+      "low_sat": "#C78181",
+      "original": "#C72828",
+      "family": "STEEL & OCHRE",
+      "description": "沉暗红"
+    },
+    "SAGE_GREEN": {
+      "name": "SAGE_GREEN",
+      "low_sat": "#81A98F",
+      "original": "#81A98F",
+      "family": "MINT & SAGE",
+      "description": "鼠尾草绿"
+    },
+    "CREAM_YELLOW": {
+      "name": "CREAM_YELLOW",
+      "low_sat": "#F8E7A2",
+      "original": "#F8E7A2",
+      "family": "MINT & SAGE",
+      "description": "奶油暖黄"
+    },
+    "DUSTY_ROSE": {
+      "name": "DUSTY_ROSE",
+      "low_sat": "#E8ABA7",
+      "original": "#E8928D",
+      "family": "MINT & SAGE",
+      "description": "灰玫瑰红"
+    },
+    "OLIVE_DRAB": {
+      "name": "OLIVE_DRAB",
+      "low_sat": "#999063",
+      "original": "#998A3D",
+      "family": "MINT & SAGE",
+      "description": "暗橄榄"
+    },
+    "SEA_GREEN": {
+      "name": "SEA_GREEN",
+      "low_sat": "#6CA69F",
+      "original": "#6CA69F",
+      "family": "MINT & SAGE",
+      "description": "海碧绿"
+    },
+    "PEWTER_GRAY": {
+      "name": "PEWTER_GRAY",
+      "low_sat": "#95A1A6",
+      "original": "#95A1A6",
+      "family": "MINT & SAGE",
+      "description": "白蜡冷灰"
+    },
+    "PLUM_SLATE": {
+      "name": "PLUM_SLATE",
+      "low_sat": "#7C6A89",
+      "original": "#7C6A89",
+      "family": "MINT & SAGE",
+      "description": "灰李紫"
+    },
+    "LAVENDER_MIST": {
+      "name": "LAVENDER_MIST",
+      "low_sat": "#E8DCE8",
+      "original": "#E8DCE8",
+      "family": "MINT & SAGE",
+      "description": "薰衣草雾"
+    },
+    "CELADON_MINT": {
+      "name": "CELADON_MINT",
+      "low_sat": "#82C18E",
+      "original": "#82C18E",
+      "family": "CELADON & SAND",
+      "description": "青瓷绿"
+    },
+    "DEEP_MOSS": {
+      "name": "DEEP_MOSS",
+      "low_sat": "#56755E",
+      "original": "#56755E",
+      "family": "CELADON & SAND",
+      "description": "深苔绿"
+    },
+    "SAND_GOLD": {
+      "name": "SAND_GOLD",
+      "low_sat": "#F1DC9C",
+      "original": "#F1CE63",
+      "family": "CELADON & SAND",
+      "description": "沙金黄"
+    },
+    "MUSTARD_OCHRE": {
+      "name": "MUSTARD_OCHRE",
+      "low_sat": "#E0CA91",
+      "original": "#E0B84C",
+      "family": "CELADON & SAND",
+      "description": "芥末赭"
+    },
+    "INDIGO_SLATE": {
+      "name": "INDIGO_SLATE",
+      "low_sat": "#7594B4",
+      "original": "#417BB4",
+      "family": "CELADON & SAND",
+      "description": "靛蓝灰"
+    },
+    "COPPER_RUST": {
+      "name": "COPPER_RUST",
+      "low_sat": "#D8A98C",
+      "original": "#D86B26",
+      "family": "CELADON & SAND",
+      "description": "红铜锈"
+    },
+    "BURNT_UMBER": {
+      "name": "BURNT_UMBER",
+      "low_sat": "#8E655C",
+      "original": "#8E321E",
+      "family": "CELADON & SAND",
+      "description": "焦褐赭"
+    },
+    "JADE_GREEN": {
+      "name": "JADE_GREEN",
+      "low_sat": "#77B89A",
+      "original": "#52B889",
+      "family": "JADE & CYAN",
+      "description": "翡翠绿"
+    },
+    "DARK_CYAN": {
+      "name": "DARK_CYAN",
+      "low_sat": "#4F7B73",
+      "original": "#327B6F",
+      "family": "JADE & CYAN",
+      "description": "暗深青"
+    },
+    "COBALT_SLATE": {
+      "name": "COBALT_SLATE",
+      "low_sat": "#7082A4",
+      "original": "#5672A4",
+      "family": "JADE & CYAN",
+      "description": "钴蓝灰"
+    },
+    "CLOUD_BLUE": {
+      "name": "CLOUD_BLUE",
+      "low_sat": "#A4B8CE",
+      "original": "#A4B8CE",
+      "family": "JADE & CYAN",
+      "description": "云水蓝"
+    },
+    "AMBER_ORANGE": {
+      "name": "AMBER_ORANGE",
+      "low_sat": "#F1C39C",
+      "original": "#F19C52",
+      "family": "JADE & CYAN",
+      "description": "琥珀橙"
+    },
+    "APPLE_GREEN": {
+      "name": "APPLE_GREEN",
+      "low_sat": "#A8CD96",
+      "original": "#9ACD82",
+      "family": "JADE & CYAN",
+      "description": "嫩苹果绿"
+    },
+    "TANGERINE": {
+      "name": "TANGERINE",
+      "low_sat": "#F0C29C",
+      "original": "#F08428",
+      "family": "JADE & CYAN",
+      "description": "蜜柑橙"
+    },
+    "ESPRESSO_BROWN": {
+      "name": "ESPRESSO_BROWN",
+      "low_sat": "#6E5547",
+      "original": "#6E381A",
+      "family": "JADE & CYAN",
+      "description": "浓缩咖啡褐"
+    },
+    "FOREST_GREEN": {
+      "name": "FOREST_GREEN",
+      "low_sat": "#719D74",
+      "original": "#609D64",
+      "family": "FOREST & BERRY",
+      "description": "苍林绿"
+    },
+    "SUNFLOWER_GOLD": {
+      "name": "SUNFLOWER_GOLD",
+      "low_sat": "#E5CB94",
+      "original": "#E5B242",
+      "family": "FOREST & BERRY",
+      "description": "向日葵金"
+    },
+    "CARROT_ORANGE": {
+      "name": "CARROT_ORANGE",
+      "low_sat": "#E8BB96",
+      "original": "#E88939",
+      "family": "FOREST & BERRY",
+      "description": "胡萝卜橙"
+    },
+    "SAFFRON_YELLOW": {
+      "name": "SAFFRON_YELLOW",
+      "low_sat": "#D9BE8D",
+      "original": "#D9A74A",
+      "family": "FOREST & BERRY",
+      "description": "藏红花黄"
+    },
+    "BERRY_MAGENTA": {
+      "name": "BERRY_MAGENTA",
+      "low_sat": "#D68BA6",
+      "original": "#D65A88",
+      "family": "FOREST & BERRY",
+      "description": "浆果洋红"
+    },
+    "BLUSH_PINK": {
+      "name": "BLUSH_PINK",
+      "low_sat": "#F5DDE6",
+      "original": "#F5DDE6",
+      "family": "FOREST & BERRY",
+      "description": "浅颊粉"
+    },
+    "HEATHER_PURPLE": {
+      "name": "HEATHER_PURPLE",
+      "low_sat": "#8F6F8E",
+      "original": "#8F6F8E",
+      "family": "FOREST & BERRY",
+      "description": "石楠紫灰"
+    },
+    "CADET_BLUE": {
+      "name": "CADET_BLUE",
+      "low_sat": "#9BB2C9",
+      "original": "#9BB2C9",
+      "family": "CADET & BRICK",
+      "description": "军校灰蓝"
+    },
+    "TOPAZ_GOLD": {
+      "name": "TOPAZ_GOLD",
+      "low_sat": "#EBC698",
+      "original": "#EBA64E",
+      "family": "CADET & BRICK",
+      "description": "黄玉金"
+    },
+    "BRICK_RED": {
+      "name": "BRICK_RED",
+      "low_sat": "#C0847C",
+      "original": "#C04838",
+      "family": "CADET & BRICK",
+      "description": "砖石红"
+    },
+    "RAW_SIENNA": {
+      "name": "RAW_SIENNA",
+      "low_sat": "#DDB992",
+      "original": "#DDA668",
+      "family": "CADET & BRICK",
+      "description": "生赭黄"
+    },
+    "GARNET_RED": {
+      "name": "GARNET_RED",
+      "low_sat": "#9E6966",
+      "original": "#9E3832",
+      "family": "CADET & BRICK",
+      "description": "深石榴红"
+    },
+    "PALE_SEAFOAM": {
+      "name": "PALE_SEAFOAM",
+      "low_sat": "#BDE8D9",
+      "original": "#BDE8D9",
+      "family": "TEAL & SEAFOAM",
+      "description": "浅海沫青"
+    },
+    "TURQUOISE_BLUE": {
+      "name": "TURQUOISE_BLUE",
+      "low_sat": "#87B7C1",
+      "original": "#6BB3C1",
+      "family": "TEAL & SEAFOAM",
+      "description": "绿松石蓝"
+    },
+    "PETROL_CYAN": {
+      "name": "PETROL_CYAN",
+      "low_sat": "#668F9D",
+      "original": "#32829D",
+      "family": "TEAL & SEAFOAM",
+      "description": "石油蓝青"
+    },
+    "MIDNIGHT_NAVY": {
+      "name": "MIDNIGHT_NAVY",
+      "low_sat": "#4A5F72",
+      "original": "#1E4B72",
+      "family": "TEAL & SEAFOAM",
+      "description": "午夜藏青"
+    },
+    "WHEAT_GOLD": {
+      "name": "WHEAT_GOLD",
+      "low_sat": "#D8C792",
+      "original": "#D8BE6E",
+      "family": "TEAL & SEAFOAM",
+      "description": "麦穗金"
+    },
+    "PINE_GREEN": {
+      "name": "PINE_GREEN",
+      "low_sat": "#689A82",
+      "original": "#689A82",
+      "family": "TEAL & SEAFOAM",
+      "description": "松针绿"
+    },
+    "BURNT_ORANGE": {
+      "name": "BURNT_ORANGE",
+      "low_sat": "#E8B496",
+      "original": "#E86A22",
+      "family": "TEAL & SEAFOAM",
+      "description": "焦橙"
+    },
+    "WILLOW_GREEN": {
+      "name": "WILLOW_GREEN",
+      "low_sat": "#8FB89A",
+      "original": "#8FB89A",
+      "family": "WILLOW & TERRA",
+      "description": "柳叶绿"
+    },
+    "BARLEY_BUFF": {
+      "name": "BARLEY_BUFF",
+      "low_sat": "#DDC39C",
+      "original": "#DDB87E",
+      "family": "WILLOW & TERRA",
+      "description": "大麦原沙"
+    },
+    "SALMON_CORAL": {
+      "name": "SALMON_CORAL",
+      "low_sat": "#E5ADA4",
+      "original": "#E59688",
+      "family": "WILLOW & TERRA",
+      "description": "鲑鱼珊瑚"
+    },
+    "AQUA_SLATE": {
+      "name": "AQUA_SLATE",
+      "low_sat": "#89B9B8",
+      "original": "#89B9B8",
+      "family": "WILLOW & TERRA",
+      "description": "水碧灰蓝"
+    },
+    "GLACIER_MIST": {
+      "name": "GLACIER_MIST",
+      "low_sat": "#E6F0F8",
+      "original": "#E6F0F8",
+      "family": "GLACIER & RUBY",
+      "description": "冰川雾青"
+    },
+    "CERULEAN_BLUE": {
+      "name": "CERULEAN_BLUE",
+      "low_sat": "#8BB6D1",
+      "original": "#64A8D1",
+      "family": "GLACIER & RUBY",
+      "description": "蔚蓝"
+    },
+    "SHELL_PINK": {
+      "name": "SHELL_PINK",
+      "low_sat": "#FDECEF",
+      "original": "#FDECEF",
+      "family": "GLACIER & RUBY",
+      "description": "贝壳淡粉"
+    },
+    "RUBY_CRIMSON": {
+      "name": "RUBY_CRIMSON",
+      "low_sat": "#C8828E",
+      "original": "#C83C55",
+      "family": "GLACIER & RUBY",
+      "description": "红宝石深红"
+    },
+    "EMERALD_TEAL": {
+      "name": "EMERALD_TEAL",
+      "low_sat": "#6FA39C",
+      "original": "#54A399",
+      "family": "GLACIER & RUBY",
+      "description": "祖母绿青"
+    },
+    "MARIGOLD_AMBER": {
+      "name": "MARIGOLD_AMBER",
+      "low_sat": "#D4B789",
+      "original": "#D49B3E",
+      "family": "GLACIER & RUBY",
+      "description": "金盏花琥珀"
+    },
+    "SCARLET_RED": {
+      "name": "SCARLET_RED",
+      "low_sat": "#C47F83",
+      "original": "#C42730",
+      "family": "GLACIER & RUBY",
+      "description": "深猩红"
+    }
+  }
+}
