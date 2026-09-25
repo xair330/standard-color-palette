@@ -1,14 +1,14 @@
 # 标准色彩库 (Standard Color Palette Library)
 
-民航统计分析与工程图样受控标准色彩体系。
+通用工程技术与数据分析受控标准色彩体系。
 
 ![色彩标准大样](charts/色彩标准大样.png)
 
 ## 核心特性
 
 - **全量 69 色受控收录**：涵盖 10 大分类家族、58 个图元色标与 6 组经典调和矩阵；
-- **纯色彩学命名**：彻底脱钩民航专业代码，采用国际标准专业色彩英文命名（如 `STEEL_BLUE`, `JADE_GREEN`, `MUTED_CRIMSON`, `SAND_GOLD` 等）；
-- **低饱和度工业标准**：全量色相严格收敛于 $S \le 35\%$ 工业克制区间；
+- **纯色彩学命名**：彻底脱钩特定业务代码，采用国际标准专业色彩英文命名（如 `STEEL_BLUE`, `JADE_GREEN`, `MUTED_CRIMSON`, `SAND_GOLD` 等）；
+- **低饱和度工业标准**：全量色相严格收敛于 $S \le 35\%$ 工业克制微彩区间；
 - **多层调用架构**：支持点语法强类型自动补全、场景语义角色映射以及成套搭配矩阵；
 - **运行时只读防篡改**：核心容器代码级只读阻断，非授权无法修改；
 - **跨平台支持**：提供 Python 核心库、通用 JSON 数据字典与 CSS 根变量。
@@ -33,7 +33,7 @@ import palette
 from palette import C
 
 # 绘制折线
-ax.plot(x, y, color=C.STEEL_BLUE, label="主线")
+ax.plot(x, y, color=C.STEEL_BLUE, label="主参轨迹")
 ax.fill_between(x, y0, y1, color=C.PALE_AQUA, alpha=0.3)
 ```
 
